@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -106,12 +106,12 @@ p {
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h3,p, h6 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h4 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -195,6 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h6 {
     font-size: 20px;
 }
